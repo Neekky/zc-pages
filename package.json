@@ -1,0 +1,35 @@
+{
+  "name": "zc-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "zc-pages",
+    "zce"
+  ],
+  "repository": "cengchao/zc-pages",
+  "license": "MIT",
+  "author": "cengchao <475383200@qq.com> (https://github.com/Neekky?tab=repositories)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
